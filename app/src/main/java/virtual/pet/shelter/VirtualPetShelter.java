@@ -16,8 +16,9 @@ public class VirtualPetShelter {
         return pets.get(name);
     }
 
-    public void intakePet(VirtualPet pet) {
-        pets.put(pet.getName(), pet);
+    public void intakePet(String name, String description) {
+        VirtualPet newPet = new VirtualPet(name, description);
+        pets.put(name, newPet);
     }
 
     public VirtualPet adoptPet(String name) {

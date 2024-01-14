@@ -81,12 +81,4 @@ public class VirtualPet {
         this.boredLevel = boredLevel;
     }
 
-    public void petStats() {
-        System.out.println("Name: " + this.name);
-        System.out.println("Description: " + this.description);
-        System.out.println("Hunger: " + this.hungerLevel);
-        System.out.println("Thirst: " + this.thirstLevel);
-        System.out.println("Bored Status: " + this.boredLevel);
-    }
-
 }
